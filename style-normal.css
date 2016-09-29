@@ -1,0 +1,24 @@
+* {
+	color: #81858A;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	border: solid black 2px;
+}
+
+.header-links {
+	font-size:  10pt;
+}
+
+.header-links a{
+	padding: 10px;
+}
+
+#Pricing {
+	color: black;
+}
+
