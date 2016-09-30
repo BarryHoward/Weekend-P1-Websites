@@ -37,9 +37,10 @@ li {
 	padding-bottom: 5px;
 	background: white;
 	color: black;
-	outline-width: 5px;
+	//outline-width: 5px;
 	font-size: 10pt;
 	font-weight: bold;
+	outline: none;
 }
 
 
