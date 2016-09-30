@@ -1,7 +1,8 @@
 * {
 	color: #81858A;
 	//border: solid black 2px;
-	box-sizing: border-box;
+	//box-sizing: border-box;
+
 }
 
 body {
@@ -24,20 +25,21 @@ ul {
 
 li {
 	padding-top: 10px;
-	padding-bottom: 10px;
-	border: thin solid lightgrey;
+	padding-bottom: 11px;
+	border: 1px solid lightgrey;
+	border-bottom: none;
 	font-size: 10pt;
 }
 
-.button{
+button{
 	border-radius: 100px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 	background: white;
 	color: black;
-	//outline-width: 5px;
+	border: 1px solid lightgrey;
 	font-size: 10pt;
 	font-weight: bold;
 	outline: none;
@@ -121,6 +123,7 @@ li {
 	height: 180px;
 	padding: 0px;
 	margin: 0px;
+
 }
 
 
@@ -145,6 +148,7 @@ li {
 .plan-cost {
 	font-size: 60pt;
 	color:white;
+	font-weight: lighter;
 }
 .per-month {
 	color: #AACAAA;
@@ -157,7 +161,7 @@ li {
 .choose-bar {
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-top: 20px;
+	padding-top: 18px;
 	padding-bottom: 20px;
 	background: white;
 	text-align: center;
