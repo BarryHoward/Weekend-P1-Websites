@@ -14,9 +14,17 @@ a {
 }
 
 ul {
+	margin:0px;
+	background: #F7F7F7;
 	padding: 0px;
 	text-align: center;
 	list-style: none;
+}
+
+li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: thin solid lightgrey;
 }
 
 .header {
@@ -85,19 +93,22 @@ ul {
 	background:#111111
 }	
 
-.plan-details{
-	margin:0px;
+.choose-bar {
+	align-items: center;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #F7F7F7;
 }
 
-.additional-info{
+.info-box{
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
 	margin:  30px;
 }
 
-.additional-title{
+.info-title{
 	color: black;
 	font-size: 14pt;
 }
