@@ -1,0 +1,32 @@
+* {
+	//border: solid black 2px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Header-Link-Bar {
+	background: #FA6938;
+	color: white;
+	height: 60px;
+	padding-top: 5px;
+	padding-left: 40px;
+}
+
+#Free-Shipping {
+	background: #C8542D;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 10px;
+	height: 40px;
+
+}
+
+#Shipping-Box {
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
