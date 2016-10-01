@@ -1,11 +1,10 @@
 * {
-	border: solid black 2px;
+	border: solid black 1px;
 	box-sizing: border-box;
 }
 
 body {
 	width: 100%;
-
 	height: 2000px;
 	background: white;
 }
@@ -15,34 +14,48 @@ a {
 }
 
 /*Promo*/
+.promo-bar {
+	height: 40px;
+}
 
-#Promo-Link-Bar {
-	margin:0px;
+#Promo-Link {
+	display: inline-block;
+	overflow: hidden;
+	width:100%;
+	height: 100%;	
+}
+
+#Promo-Container{
 	font-family: "ff-enzo-web",tahoma,sans-serif;
+	font-size: 10pt;
+	font-weight: 100;
 	background: #FA6938;
 	color: white;
-	height: 60px;
+	height: 100%;
 	width: 100%;
 	padding-top: 5px;
-	padding-left: 40px;
+	padding-bottom: 5px;
+	padding-left: 100px;
 }
 
 #Free-Shipping {
 	background: #C8542D;
 	color: white;
+	margin: 0px;
+	border-radius: 3px;
 	display: inline-block;
-	vertical-align: middle;
-	padding-top: 10px;
-	height: 40px;
+	padding: 4px;
+	height: 100%;
 
 }
 
 #Shipping-Box {
+	margin: 0px;
 	color: white;
 	display: inline-block;
 	vertical-align: middle;
 }
-
+/*-------------------------------------------------------*/
 
 /*Header*/
 
@@ -51,15 +64,15 @@ a {
 	height: 400px;
 	color: white;
 	padding: 0;
+	display: inline-block;
+	vertical-align: top;
 	
 }
 
 .header-left{
-	width: 66%;
+	width: 40%;
 	padding-top: 100px;
 	height: 100%;
-	/*padding-top: 40%;
-	padding-bottom: 40%;*/
 	margin: 0;
 	display: inline-block;
 	vertical-align: top;
@@ -67,7 +80,6 @@ a {
 
 .header-link-box {
 	display: inline-block;
-	vertical-align: middle;
 }
 
 .header-link {
@@ -82,6 +94,8 @@ a {
 	display: inline-block;
 	vertical-align: top;
 }
+
+/*tie rack*/
 
 .tie-rack {
 	width: 100%;
