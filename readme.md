@@ -1,3 +1,7 @@
+Finished Easy Mode.  Attempted Hard Mode (Currently Incomplete)
+
+github link to project:  https://github.com/BarryHoward/Weekend-P1-Websites
+
 Files:
 
 	Normal-Mode
@@ -16,4 +20,6 @@ Files:
 		normalize.css:  Additional CSS stylesheet parameters.
 		readme.md:  Readme file (this document)
 		.gitignore - File describing git files to NOT be commited.
+
+
 
