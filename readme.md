@@ -15,4 +15,5 @@ Files:
 	Additional Files
 		normalize.css:  Additional CSS stylesheet parameters.
 		readme.md:  Readme file (this document)
+		.gitignore - File describing git files to NOT be commited.
 
