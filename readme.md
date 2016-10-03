@@ -1,4 +1,4 @@
-Finished Easy Mode.  Attempted Hard Mode (Currently Incomplete)
+Finished Easy Mode.  Did a significant portion of Hard Mode.
 
 github link to project:  https://github.com/BarryHoward/Weekend-P1-Websites
 
